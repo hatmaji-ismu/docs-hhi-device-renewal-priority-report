@@ -1,0 +1,9 @@
+Device Name	HHI-RENALDIW10
+Processor	Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz   2.81 GHz
+Installed RAM	4.00 GB (3.86 GB usable)
+Storage	238 GB SSD V-GEN09SM20AR256SDKNVME 256GB
+Graphics Card	Intel(R) UHD Graphics 630 (128 MB)
+Device ID	BAD72663-1296-44C1-86AD-B327347558BF
+Product ID	00330-71384-78951-AAOEM
+System Type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display

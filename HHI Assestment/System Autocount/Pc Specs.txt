@@ -1,0 +1,9 @@
+Device Name	DESKTOP-OUH302D
+Processor	Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz   2.81 GHz
+Installed RAM	4.00 GB (3.86 GB usable)
+Storage	1.82 TB HDD WDC WD20EFRX-68EUZN0, 238 GB SSD V-GEN09SM20AR256SDKNVME 256GB
+Graphics Card	Intel(R) UHD Graphics 630 (128 MB)
+Device ID	C2430529-D03D-4F5D-9C9F-57E0167A438B
+Product ID	00330-80000-00000-AA931
+System Type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display

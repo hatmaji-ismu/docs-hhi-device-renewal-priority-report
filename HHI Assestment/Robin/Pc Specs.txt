@@ -1,0 +1,7 @@
+Device name	DESKTOP-0BHS60M
+Processor	Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz (2.90 GHz)
+Installed RAM	8,00 GB (7,74 GB usable)
+Device ID	84B6F906-643B-4518-84E8-272C172CA3B9
+Product ID	00327-36247-96188-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display

@@ -1,0 +1,11 @@
+HP 240 g7
+
+Device Name	HHI-AFIONAWATI
+Processor	Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz
+Installed RAM	4,00 GB (3,89 GB usable)
+Storage	238 GB SSD V-GEN09SM20AR256SDKNVME 256GB
+Graphics Card	Intel(R) UHD Graphics 620 (128 MB)
+Device ID	E3CD663C-753F-45B1-A774-248A21D96887
+Product ID	00330-51963-17594-AAOEM
+System Type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display

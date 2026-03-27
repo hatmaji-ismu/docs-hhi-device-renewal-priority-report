@@ -1,0 +1,9 @@
+Device Name	HHI-DENNYW10
+Processor	Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz   2.71 GHz
+Installed RAM	4,00 GB (3,89 GB usable)
+Storage	238 GB SSD V-GEN10SM20AR256SDKM2 256GB
+Graphics Card	AMD Radeon (TM) R5 M330 (2 GB), Intel(R) HD Graphics 620 (128 MB)
+Device ID	7C3C2BD4-0DEF-443B-93ED-9C6E53969E14
+Product ID	00330-50813-29776-AAOEM
+System Type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display

@@ -1,0 +1,9 @@
+Device Name	HHI-SERVER2
+Processor	Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz   3.60 GHz
+Installed RAM	4.00 GB (3.41 GB usable)
+Storage	466 GB WDC WD5000AVCS-632DY1
+Graphics Card	Intel(R) HD Graphics 4400 (113 MB)
+Device ID	5830E0B1-13CF-4FE1-AA74-FBC0D75B8A68
+Product ID	00330-80000-00000-AA809
+System Type	32-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
