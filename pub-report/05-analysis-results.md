@@ -1,8 +1,8 @@
 # Analysis Results
 
-## Sintesis Prioritas Armada
+## Sintesis Prioritas Unit
 
-Secara keseluruhan, sembilan dari dua belas unit (75%) sudah berada pada kategori yang membutuhkan keputusan aktif, baik berupa penggantian segera maupun penyegaran prioritas tinggi. Ini menunjukkan bahwa persoalan armada tidak lagi bersifat sporadis, melainkan struktural.
+Secara keseluruhan, sembilan dari dua belas unit (75%) sudah berada pada kategori yang membutuhkan keputusan aktif, baik berupa penggantian segera maupun penyegaran prioritas tinggi. Ini menunjukkan bahwa persoalan unit tidak lagi bersifat sporadis, melainkan struktural.
 
 Tabel berikut merangkum profil, temuan utama, dan prioritas untuk setiap unit:
 
@@ -10,22 +10,22 @@ Tabel berikut merangkum profil, temuan utama, dan prioritas untuk setiap unit:
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **System Finance** | i3-4160, RAM 4 GB, Windows 10 32-bit, HDD | Platform sangat tua, RAM efektif rendah, driver lama, audio playback tidak terdeteksi | Sangat lambat untuk WhatsApp dan browser; koneksi internet kadang harus dipulihkan dengan restart | Produktivitas dasar terganggu dan platform sudah tidak sejalan dengan kebutuhan kerja modern | Ganti unit; upgrade parsial hanya layak sebagai penahan sementara | Penggantian segera |
 | **Renaldi** | i5-8400, RAM 4 GB, SSD berstatus peringatan | RAM kritis, SSD 85%, suhu 66 C, ruang kosong 18,1 GB, reserved spare area terpakai | `Lag`, `freeze`, `BSOD`, tidak ada webcam untuk rapat daring | Risiko gangguan kerja dan kehilangan data tinggi | Ganti unit dan lakukan `backup` segera | Penggantian segera |
-| **Diana** | i5-8400, RAM 4 GB, SSD panas | RAM kritis, `page file` tinggi, SSD 85% pada 61 C, ruang kosong terbatas | Sering `hang`, error saat membuka lebih dari dua file Excel, sering mati mendadak, lambat di ORS Payroll | Gangguan langsung pada pekerjaan administrasi dan indikasi masalah stabilitas listrik/termal | Ganti unit; jangan hanya mengandalkan upgrade RAM | Penggantian segera |
+| **Diana** | i5-8400, RAM 4 GB, SSD panas | RAM kritis, `page file` tinggi, SSD 85% pada 61 C, ruang kosong terbatas | Sering `hang`, error saat membuka lebih dari dua file Excel, sering `BSOD` dan mati mendadak, lambat di ORS Payroll | Gangguan langsung pada pekerjaan administrasi dan indikasi masalah stabilitas listrik/termal | Ganti unit; jangan hanya mengandalkan upgrade RAM | Penggantian segera |
 | **Regina** | i5-8265U, RAM 4 GB, laptop, SSD 75% | RAM 92%, `page file` sangat tinggi, `health` SSD menurun, driver menua | Sangat lambat, sering `BSOD`, chassis patah, baterai turun 50% dalam 15 menit | Unit tidak lagi andal untuk kerja mobile maupun kerja rutin | Ganti unit sesegera mungkin | Penggantian segera |
 | **Syela** | i5-8400, RAM 4 GB, SSD 78% | RAM kritis, ruang kosong hanya 5,6 GB, suhu 54 C, `health` storage menurun | Tidak ada keluhan kualitatif spesifik, tetapi bukti teknis sudah menunjukkan tekanan berat | Risiko penurunan kinerja dan instabilitas akan terus meningkat | Ganti unit; sementara itu lakukan pembersihan ruang penyimpanan | Penggantian segera |
 | **Christy** | i5-10210U, RAM 8 GB, laptop | RAM 89%, `page file` tinggi, driver GPU menua, storage masih sehat | Mikrofon rusak, keyboard rusak, membutuhkan penyimpanan lebih besar, menginginkan laptop ringkas | Kualitas kerja dan kesesuaian perangkat dengan peran pengguna menurun | Siapkan laptop pengganti dengan spesifikasi yang sesuai peran | Penyegaran prioritas tinggi |
-| **Yohana** | i5-8400, RAM 4 GB, SSD 256 GB | RAM 92%, `page file` sangat tinggi, kondisi `health` storage belum tervalidasi, audio playback tidak terdeteksi | Monitor terlalu kecil, kursor sering hilang, mulai lambat saat banyak aplikasi terbuka | Produktivitas harian terganggu, tetapi belum ada bukti kegagalan total | Upgrade RAM dan perbaiki input/monitor sambil disiapkan untuk batch berikutnya | Penyegaran prioritas tinggi |
+| **Yohana** | i5-8400, RAM 4 GB, SSD 256 GB | RAM 92%, `page file` sangat tinggi, kondisi `health` storage belum tervalidasi, audio playback tidak terdeteksi | Monitor terlalu kecil, kursor sering hilang, mulai lambat saat banyak aplikasi terbuka, sering `BSOD` | Produktivitas harian terganggu dan risiko instabilitas sistem sudah teridentifikasi | Upgrade RAM dan perbaiki input/monitor; investigasi BSOD dan siapkan untuk batch berikutnya | Penyegaran prioritas tinggi |
 | **Hibab** | i5-7200U, RAM 4 GB, laptop | RAM 90%, `page file` tinggi, platform mobile lama, SSD masih sehat | Outlook lambat, baterai cepat habis, pengalaman rapat daring menurun | Masih dapat dipakai sementara, tetapi mobilitas dan kenyamanan kerja sudah buruk | Ganti baterai dan tambah RAM jika ingin menunda; siapkan penggantian | Penyegaran prioritas tinggi |
 | **Devinta** | i5-8400, RAM 8 GB, SSD sehat | `page file` sangat tinggi, platform mulai menua, audio playback tidak terdeteksi | Belum ada keluhan lapangan berat, tetapi bukti teknis menunjukkan tekanan multitugas | Risiko penurunan produktivitas muncul dalam jangka menengah | Upgrade RAM ke 16 GB dan perbaiki audio; masukkan ke batch penyegaran | Penyegaran prioritas tinggi |
 | **Wulan** | i5-10400, RAM 8 GB, SSD 88% | CPU masih memadai, RAM mulai sempit, `health` SSD menurun moderat, audio playback tidak terdeteksi | `Not Responding` setelah mengunduh PDF; gejalanya mengarah ke masalah perangkat lunak | Replacement belum mendesak; perbaikan sistem berpotensi menyelesaikan inti masalah | Lakukan perbaikan sistem/instal ulang OS; upgrade RAM bila perlu | Perbaikan/upgrade terlebih dahulu |
 | **Robin** | i5-10400, RAM 8 GB, SSD 93% | RAM mulai tertekan, `page file` tinggi, audio playback tidak terdeteksi | Tidak ada kendala operasional bermakna; stabil untuk Excel | Belum ada alasan bisnis kuat untuk penggantian langsung | Pertahankan; audit audio bila diperlukan dan upgrade RAM bersifat opsional | Pertahankan |
 | **System Autocount** | i5-8400, RAM 4 GB, SSD + HDD sehat | RAM tetap di bawah standar, tetapi storage sehat dan `page file` masih relatif terkendali | Sistem siaga Autocount masih berjalan baik, tanpa keluhan lapangan | Belum perlu diprioritaskan karena fungsi perannya masih terpenuhi | Pertahankan; upgrade RAM hanya jika beban kerja meningkat | Pertahankan |
 
-## Temuan Lintas Armada
+## Temuan Lintas Unit
 
 ### 1. RAM 4 GB Sudah Berada di Bawah Ambang Kelayakan Kerja
 
-Temuan paling konsisten di seluruh armada adalah keterbatasan memori. Delapan unit masih menggunakan RAM 4 GB, dan hampir semuanya menunjukkan pola yang sama:
+Temuan paling konsisten di seluruh unit adalah keterbatasan memori. Delapan unit masih menggunakan RAM 4 GB, dan hampir semuanya menunjukkan pola yang sama:
 
 - **Utilisasi Memori Tinggi:** Penggunaan RAM berkisar antara 85-92% pada beban kerja normal
 - **Page File Besar:** Ketergantungan pada virtual memory mencapai 6-13 GB
@@ -39,7 +39,8 @@ Bahkan pada unit dengan RAM 8 GB (Christy, Devinta, Wulan, Robin), gejala tekana
 Dokumen kualitatif memperjelas bahwa spesifikasi teknis tidak cukup untuk menentukan urgensi:
 
 - **Renaldi dan Regina** bukan hanya "berusia tua", tetapi sudah mengalami **BSOD** yang menandakan risiko stabilitas sistem
-- **Diana** menunjukkan **mati mendadak**, indikasi masalah yang lebih serius daripada sekadar unit yang terasa lambat
+- **Diana** menunjukkan **BSOD dan mati mendadak**, indikasi masalah kestabilan sistem yang lebih serius daripada sekadar unit yang terasa lambat
+- **Yohana** juga mengalami **BSOD**, menandakan risiko instabilitas yang perlu mendapat perhatian lebih
 - **System Autocount** tetap dipertahankan meskipun hanya memiliki RAM 4 GB, karena perannya sebagai **sistem siaga** masih berjalan stabil
 
 Dengan kata lain, tingkat urgensi harus dibaca bersama **konteks pekerjaan**, bukan hanya berdasarkan usia perangkat atau spesifikasi teknis.
@@ -68,7 +69,7 @@ Evaluasi penggantian harus selalu memasukkan **kelayakan perangkat dari sisi pen
 
 ### 5. Strategi Pengadaan Perlu Dibedakan antara Penggantian, Penyegaran, dan Pemeliharaan
 
-Laporan ini menegaskan bahwa organisasi tidak perlu mengganti seluruh armada sekaligus:
+Laporan ini menegaskan bahwa organisasi tidak perlu mengganti seluruh unit sekaligus:
 
 - **5 Unit:** Sudah pada posisi ketika perbaikan parsial akan memberikan hasil terbatas (penggantian segera)
 - **4 Unit:** Masih dapat dipertahankan sebentar dengan intervensi transisi (penyegaran prioritas tinggi)
@@ -95,7 +96,7 @@ Pembagian ini penting agar anggaran diarahkan ke titik yang paling berdampak ter
 - **Health Good (>90%):** Christy, Hibab, Devinta, Robin, System Autocount
 
 ### 4. Pola Gangguan Operasional
-- **BSOD/Mati Mendadak:** Renaldi, Diana, Regina - semua penggantian segera
+- **BSOD/Mati Mendadak:** Renaldi, Diana, Regina, Yohana - dengan Diana dan Yohana menunjukkan BSOD yang mengindikasikan risiko instabilitas sistem
 - **Kerusakan Fisik:** Regina (chassis), Christy (mikrofon/keyboard)
 - **Gangguan Aplikasi Spesifik:** Diana (Excel, ORS Payroll), Hibab (Outlook)
 
@@ -103,14 +104,14 @@ Pembagian ini penting agar anggaran diarahkan ke titik yang paling berdampak ter
 
 ### Assets dengan Risiko Tertinggi
 1. **Renaldi** - Kombinasi lengkap: RAM kritis, SSD memburuk, suhu tinggi, BSOD
-2. **Diana** - Mati mendadak, gangguan aplikasi bisnis kritis, tekanan sistem tinggi
+2. **Diana** - BSOD dan mati mendadak, gangguan aplikasi bisnis kritis, tekanan sistem tinggi
 3. **Regina** - BSOD, kerusakan fisik, degradasi baterai ekstrem, platform mobile
 4. **System Finance** - Platform sangat tua, arsitektur 32-bit, keterbatasan fundamental
 5. **Syela** - Storage hampir penuh, health menurun, tekanan memori tinggi
 
 ### Assets dengan Risiko Menengah
 1. **Christy** - Periferal rusak, kebutuhan form factor berbeda, RAM tertekan
-2. **Yohana** - RAM sangat terbatas, gangguan input, kebutuhan ergonomi
+2. **Yohana** - RAM sangat terbatas, BSOD, gangguan input, kebutuhan ergonomi
 3. **Hibab** - Platform mobile menua, baterai degradasi, performa menurun
 4. **Devinta** - Platform mulai menua, tekanan multitasks, audio issues
 
@@ -121,7 +122,7 @@ Pembagian ini penting agar anggaran diarahkan ke titik yang paling berdampak ter
 
 ## Kesimpulan Analisis
 
-Analisis mendalam mengungkapkan bahwa **75% armada perangkat sudah memerlukan intervensi aktif**. Masalah utama bersifat struktural (RAM 4 GB tidak memadai) dengan variasi risiko berdasarkan konteks penggunaan dan kondisi spesifik per unit.
+Analisis mendalam mengungkapkan bahwa **75% unit perangkat sudah memerlukan intervensi aktif**. Masalah utama bersifat struktural (RAM 4 GB tidak memadai) dengan variasi risiko berdasarkan konteks penggunaan dan kondisi spesifik per unit.
 
 Prioritas tindakan harus difokuskan pada **mitigasi risiko tertinggi** terlebih dahulu, diikuti oleh **optimasi produktivitas** untuk unit dengan risiko menengah, dan **pemeliharaan preventif** untuk unit yang masih layak.
 

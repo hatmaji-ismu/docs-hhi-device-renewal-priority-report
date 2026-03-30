@@ -35,6 +35,7 @@
 ### 3. Key Findings & Bottlenecks / Temuan Utama & Hambatan Performa
 * **RAM 4 GB adalah bottleneck utama dan bersifat kritis**. Dengan memory usage 85% dan sisa available hanya 583 MB, perangkat ini berisiko sering melambat bahkan untuk workload kantor dasar.
 * **Page File sudah digunakan sangat tinggi** pada `DxDiag` sebesar 5972 MB. Ini menunjukkan sistem sudah mengandalkan storage sebagai perpanjangan memory, yang menurunkan responsivitas aplikasi dan pengalaman kerja harian.
+* **Insiden BSOD dan mati mendadak** sudah dilaporkan oleh pengguna, menandakan risiko kestabilan sistem yang serius dan melampaui bottleneck RAM biasa.
 * **SSD masih sehat secara S.M.A.R.T., tetapi suhu 61 C dan free space 30 GB perlu diwaspadai**. Ini bukan `End of Life`, namun merupakan warning operasional yang layak ditindak agar performa dan umur pakai tidak semakin tertekan.
 * **Audio playback tidak terdeteksi** pada `DxDiag`. Jika perangkat digunakan untuk meeting, training, atau komunikasi kerja, masalah ini dapat langsung menghambat produktivitas.
 
@@ -48,6 +49,7 @@
 ### Critical Warning / Peringatan Kritis
 * Tidak ditemukan konflik data antara `DxDiag.txt` dan `Pc Specs.txt`; keduanya konsisten menunjukkan Intel Core i5-8400, Intel UHD Graphics 630, dan RAM 4 GB.
 * `DxDiag` secara eksplisit menyatakan `No sound card was found` pada playback. Ini merupakan warning operasional penting dan perlu segera diverifikasi.
+* **Insiden BSOD dan mati mendadak** sudah dikonfirmasi secara operasional oleh pengguna, yang memperkuat diagnosis bahwa unit ini memiliki risiko kestabilan sistem yang serius.
 
 ### Urgent Recommendations / Rekomendasi Mendesak
 * **Prioritas 1**: Upgrade RAM sesegera mungkin karena 4 GB sudah menjadi penghambat utama produktivitas.
@@ -55,5 +57,5 @@
 * **Prioritas 3**: Kurangi beban storage dan cek pendinginan unit karena SSD tercatat 61 C dengan ruang kosong yang terbatas.
 
 ---
-**Executive Conclusion / Kesimpulan Eksekutif**:  
-Perangkat Diana masih memiliki **SSD yang secara dasar sehat**, namun secara operasional sudah menunjukkan **beberapa risiko nyata terhadap produktivitas**. Bottleneck terbesarnya adalah **RAM 4 GB**, dibuktikan oleh penggunaan memory tinggi dan `Page File` yang sudah besar. Selain itu, SSD bekerja pada suhu **61 C** dengan sisa ruang kosong yang terbatas, dan `DxDiag` menunjukkan masalah pada audio playback. Dalam konteks kerja bisnis 2026, unit ini berpotensi **menghambat produktivitas harian** dan memerlukan intervensi segera. Upgrade RAM adalah langkah minimum; untuk keberlanjutan kerja jangka menengah, **replacement unit sangat layak dipertimbangkan**.
+**Executive Conclusion / Kesimpulan Eksekutif**:
+Perangkat Diana masih memiliki **SSD yang secara dasar sehat**, namun secara operasional sudah menunjukkan **beberapa risiko nyata terhadap produktivitas**. Bottleneck terbesarnya adalah **RAM 4 GB**, dibuktikan oleh penggunaan memory tinggi dan `Page File` yang sudah besar. Selain itu, SSD bekerja pada suhu **61 C** dengan sisa ruang kosong yang terbatas, dan `DxDiag` menunjukkan masalah pada audio playback. Secara operasional, pengguna juga melaporkan insiden **BSOD dan mati mendadak**, yang menandakan risiko kestabilan sistem yang serius dan melampaui sekadar keterbatasan RAM. Dalam konteks kerja bisnis 2026, unit ini berpotensi **menghambat produktivitas harian** dan memerlukan intervensi segera. Upgrade RAM adalah langkah minimum; untuk keberlanjutan kerja jangka menengah, **replacement unit sangat layak dipertimbangkan**.

@@ -8,7 +8,7 @@ Berdasarkan analisis komprehensif terhadap 12 unit perangkat yang saat ini aktif
 
 ## Kondisi Perangkat Saat Ini
 
-Evaluasi menunjukkan bahwa kondisi armada perangkat telah mencapai titik kritis yang memerlukan intervensi segera:
+Evaluasi menunjukkan bahwa kondisi unit perangkat telah mencapai titik kritis yang memerlukan intervensi segera:
 
 | Kategori Prioritas | Jumlah Unit | Persentase | Makna Operasional |
 | :--- | :---: | :---: | :--- |
@@ -22,8 +22,8 @@ Evaluasi menunjukkan bahwa kondisi armada perangkat telah mencapai titik kritis 
 ### 1. RAM 4 GB sebagai Akar Masalah Struktural
 Delapan dari dua belas unit masih menggunakan RAM 4 GB, kapasitas yang sudah berada di bawah ambang kelayakan untuk kerja multitasking modern. Hampir semua unit dengan RAM 4 GB menunjukkan gejala tekanan memori tinggi, ketergantungan besar pada page file, dan penurunan responsivitas sistem.
 
-### 2. Risiko Tidak Merata di Seluruh Armada
-Analisis mengungkapkan bahwa risiko gangguan tidak tersebar merata. Beberapa unit (seperti Renaldi dan Regina) sudah mengalami BSOD (Blue Screen of Death) dan mati mendadak, menandakan risiko kestabilan yang lebih serius dibanding unit yang hanya terasa lambat.
+### 2. Risiko Tidak Merata di Seluruh Unit
+Analisis mengungkapkan bahwa risiko gangguan tidak tersebar merata. Beberapa unit (seperti Renaldi, Diana, dan Regina) sudah mengalami BSOD (Blue Screen of Death) dan mati mendadak, menandakan risiko kestabilan yang lebih serius dibanding unit yang hanya terasa lambat. Yohana juga menunjukkan insiden BSOD yang mengindikasikan masalah instabilitas sistem.
 
 ### 3. Dampak Operasional Signifikan
 Gangguan produktivitas tidak hanya berasal dari spesifikasi teknis yang menua, tetapi juga dari kerusakan fisik (chassis patah, keyboard rusak), degradasi baterai ekstrem, dan ketidaktersediaan periferal penting (webcam, mikrofon) untuk rapat daring.
@@ -57,6 +57,6 @@ Penundaan peremajaan perangkat akan mengakibatkan:
 
 ## Kesimpulan Eksekutif
 
-Armada perangkat saat ini telah mencapai titik di mana 75% unit membutuhkan keputusan aktif berupa penggantian atau penyegaran. Investasi dalam program peremajaan bertahap tidak hanya akan meningkatkan produktivitas dan keandalan sistem, tetapi juga mengurangi risiko operasional dan biaya pemeliharaan jangka panjang.
+Unit perangkat saat ini telah mencapai titik di mana 75% unit membutuhkan keputusan aktif berupa penggantian atau penyegaran. Investasi dalam program peremajaan bertahap tidak hanya akan meningkatkan produktivitas dan keandalan sistem, tetapi juga mengurangi risiko operasional dan biaya pemeliharaan jangka panjang.
 
 Keputusan untuk memprioritaskan 5 unit dengan risiko tertinggi dalam batch pertama memberikan keseimbangan optimal antara dampak bisnis, efisiensi anggaran, dan kesinambungan operasional.

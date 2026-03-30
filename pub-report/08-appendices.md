@@ -29,9 +29,9 @@
 
 **Status komponen:** CPU peringatan, GPU peringatan, memori kritis, storage peringatan.
 
-**Temuan utama:** Penggunaan memori berada di 85% dengan hanya 583 MB tersedia dan `page file` 5972 MB. SSD masih berada di `health` 85%, tetapi suhu mencapai 61 C dan ruang kosong tersisa 30 GB. Temuan kualitatif jauh lebih serius: perangkat sering `hang`, error ketika membuka lebih dari dua file Excel, lambat saat mengakses ORS Payroll, dan bahkan sering mati mendadak.
+**Temuan utama:** Penggunaan memori berada di 85% dengan hanya 583 MB tersedia dan `page file` 5972 MB. SSD masih berada di `health` 85%, tetapi suhu mencapai 61 C dan ruang kosong tersisa 30 GB. Temuan kualitatif jauh lebih serius: perangkat sering `hang`, error ketika membuka lebih dari dua file Excel, lambat saat mengakses ORS Payroll, dan sering mengalami `BSOD` serta mati mendadak.
 
-**Analisis:** Mati mendadak menandakan risiko yang melampaui bottleneck RAM biasa. Kemungkinan sumbernya bisa berasal dari catu daya, termal, atau kestabilan sistem yang lebih dalam. Karena unit dipakai untuk pekerjaan administrasi yang menuntut kontinuitas, setiap gangguan seperti ini langsung menambah risiko kehilangan pekerjaan, pengulangan input, dan penurunan kepercayaan pengguna terhadap sistem.
+**Analisis:** Insiden `BSOD` dan mati mendadak menandakan risiko yang melampaui bottleneck RAM biasa. Kemungkinan sumbernya bisa berasal dari catu daya, termal, atau kestabilan sistem yang lebih dalam. Karena unit dipakai untuk pekerjaan administrasi yang menuntut kontinuitas, setiap gangguan seperti ini langsung menambah risiko kehilangan pekerjaan, pengulangan input, dan penurunan kepercayaan pengguna terhadap sistem.
 
 **Rekomendasi:** Tempatkan dalam kategori penggantian segera. Upgrade RAM saja tidak memadai sebagai solusi akhir. Selama menunggu penggantian, lakukan pembersihan aplikasi startup, cek pendinginan, dan pastikan ada kebiasaan penyimpanan berkala untuk mengurangi dampak mati mendadak.
 
@@ -73,11 +73,11 @@
 
 **Status komponen:** CPU peringatan, GPU peringatan, memori kritis, storage peringatan.
 
-**Temuan utama:** Penggunaan memori berada di 92% dengan hanya 317 MB tersedia dan `page file` 7697 MB. Audio playback tidak terdeteksi di `DxDiag`. Yang membedakan unit ini adalah tambahan temuan operasional: monitor dirasa terlalu kecil, kursor sering menghilang, dan performa mulai menurun saat banyak aplikasi berjalan bersamaan.
+**Temuan utama:** Penggunaan memori berada di 92% dengan hanya 317 MB tersedia dan `page file` 7697 MB. Audio playback tidak terdeteksi di `DxDiag`. Yang membedakan unit ini adalah tambahan temuan operasional: monitor dirasa terlalu kecil, kursor sering menghilang, performa mulai menurun saat banyak aplikasi berjalan bersamaan, dan insiden `BSOD` sudah dilaporkan oleh pengguna.
 
-**Analisis:** Yohana menunjukkan gangguan yang sifatnya campuran: ada hambatan performa karena RAM 4 GB, tetapi ada juga hambatan ergonomi dan input yang langsung mengganggu alur kerja. Karena belum ada bukti kuat bahwa storage sudah rusak, dan belum ada gejala fatal seperti `BSOD` atau mati mendadak, unit ini masih dapat diposisikan satu tingkat di bawah kategori penggantian segera. Meski demikian, keluhan pengguna sudah cukup nyata untuk membuatnya tidak layak dibiarkan tanpa intervensi.
+**Analisis:** Yohana menunjukkan gangguan yang sifatnya campuran: ada hambatan performa karena RAM 4 GB, tetapi ada juga hambatan ergonomi dan input yang langsung mengganggu alur kerja. Secara operasional, pengguna melaporkan insiden `BSOD` yang mengindikasikan risiko ketidakstabilan sistem. Meski storage belum menunjukkan bukti kerusakan yang kuat, BSOD tetap menjadi perhatian serius dan memerlukan investigasi. Keluhan pengguna sudah cukup nyata untuk membuatnya tidak layak dibiarkan tanpa intervensi.
 
-**Rekomendasi:** Lakukan upgrade RAM ke 16 GB sebagai tindakan interim, perbaiki atau ganti monitor ke ukuran yang lebih sesuai, dan verifikasi masalah input. Siapkan unit ini untuk masuk batch penyegaran prioritas tinggi.
+**Rekomendasi:** Lakukan upgrade RAM ke 16 GB sebagai tindakan interim, perbaiki atau ganti monitor ke ukuran yang lebih sesuai, investigasi dan tangani insiden BSOD, dan verifikasi masalah input. Siapkan unit ini untuk masuk batch penyegaran prioritas tinggi dengan perhatian khusus pada kestabilan sistem.
 
 ### 8. Hibab
 **Profil singkat:** Laptop dengan Intel Core i5-7200U, RAM 4 GB.

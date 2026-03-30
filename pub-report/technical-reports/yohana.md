@@ -32,10 +32,12 @@
 * Risiko terbesar pada unit ini adalah **RAM 4 GB** yang sudah sangat tidak memadai untuk pola kerja modern.
 * Kondisi storage tidak menunjukkan error dari file teks, tetapi **belum dapat diverifikasi secara visual** karena tidak ada screenshot health disk.
 * `DxDiag` juga mencatat **no sound card was found** untuk playback, yang merupakan warning operasional tambahan untuk kebutuhan kerja harian.
+* Secara operasional, pengguna melaporkan insiden **Blue Screen of Death (BSOD)**, yang mengindikasikan risiko ketidakstabilan sistem dan memerlukan perhatian segera.
 
 ### 3. Key Findings & Bottlenecks / Temuan Utama & Hambatan Performa
 * **RAM 4 GB adalah bottleneck paling kritis**. Dengan penggunaan memory 92% dan available hanya 317 MB, perangkat ini sangat rentan melambat saat menjalankan browser, office suite, dan aplikasi kerja dasar sekalipun.
-* **Page File sudah terpakai sangat tinggi** sebesar 7697 MB pada `DxDiag`, yang berarti sistem sudah mengandalkan storage secara agresif untuk menutup kekurangan RAM fisik.
+* **Page File sudah terpakai sangat tinggi** sebesar 7697 MB pada `DxDiag`, yang berarti sistem sudah relying on storage secara agresif untuk menutup kekurangan RAM fisik.
+* **Insiden BSOD sudah dilaporkan oleh pengguna**, menandakan risiko ketidakstabilan sistem yang melampaui sekadar keterbatasan RAM dan memerlukan investigasi lebih lanjut.
 * **Audio playback tidak terdeteksi** pada `DxDiag`. Jika perangkat dipakai untuk meeting, training, atau kebutuhan notifikasi suara, masalah ini akan berdampak langsung pada operasional.
 * **Storage belum dapat dipastikan sehat atau tidak sehat secara penuh** karena tidak ada bukti screenshot S.M.A.R.T./health. Ini perlu dicatat agar tidak ada asumsi berlebihan dalam laporan.
 
@@ -50,12 +52,14 @@
 * Tidak ditemukan konflik data antara `DxDiag.txt` dan `Pc Specs.txt`; keduanya konsisten menunjukkan Intel Core i5-8400, RAM 4 GB, Intel UHD Graphics 630, dan SSD 256 GB.
 * `DxDiag` secara eksplisit menyatakan `No sound card was found` pada playback. Ini perlu segera dipastikan penyebabnya.
 * Tidak ada screenshot health storage pada folder ini, sehingga kondisi disk tidak boleh diasumsikan aman tanpa verifikasi tambahan.
+* **Insiden BSOD sudah dikonfirmasi secara operasional oleh pengguna**, menandakan risiko ketidakstabilan sistem yang serius dan memerlukan investigasi segera.
 
 ### Urgent Recommendations / Rekomendasi Mendesak
 * **Prioritas 1**: Upgrade RAM sesegera mungkin karena 4 GB sudah menjadi penghambat utama produktivitas.
 * **Prioritas 2**: Perbaiki audio playback agar unit siap digunakan untuk operasional harian.
-* **Prioritas 3**: Lakukan pengecekan health SSD tambahan untuk melengkapi diagnosis hardware.
+* **Prioritas 3**: Investigasi dan tangani insiden BSOD untuk memastikan kestabilan sistem.
+* **Prioritas 4**: Lakukan pengecekan health SSD tambahan untuk melengkapi diagnosis hardware.
 
 ---
-**Executive Conclusion / Kesimpulan Eksekutif**:  
-Perangkat Yohana menunjukkan **risiko produktivitas yang tinggi**, terutama karena **RAM 4 GB** sudah sangat tidak memadai untuk standar kerja 2026. Hal ini terlihat jelas dari penggunaan memory **92%** dan `Page File` yang sangat besar. Selain itu, `DxDiag` menunjukkan masalah **audio playback tidak terdeteksi**, yang dapat langsung mengganggu operasional. Kondisi SSD tidak dapat dinilai sepenuhnya karena bukti health storage tidak tersedia pada folder ini. Upgrade RAM adalah prioritas utama, disusul perbaikan audio dan verifikasi kondisi storage.
+**Executive Conclusion / Kesimpulan Eksekutif**:
+Perangkat Yohana menunjukkan **risiko produktivitas yang tinggi**, terutama karena **RAM 4 GB** sudah sangat tidak memadai untuk standar kerja 2026. Hal ini terlihat jelas dari penggunaan memory **92%** dan `Page File` yang sangat besar. Secara operasional, pengguna juga melaporkan insiden **BSOD**, menandakan risiko ketidakstabilan sistem yang serius. Selain itu, `DxDiag` menunjukkan masalah **audio playback tidak terdeteksi**, yang dapat langsung mengganggu operasional. Kondisi SSD tidak dapat dinilai sepenuhnya karena bukti health storage tidak tersedia pada folder ini. Upgrade RAM adalah prioritas utama, disusul investigasi BSOD, perbaikan audio, dan verifikasi kondisi storage.

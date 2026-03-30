@@ -32,9 +32,9 @@ Dokumen ini menyajikan analisis mendalam mengenai kondisi perangkat keras yang s
 *   **Spesifikasi:** i5-8400 @ 2.80GHz, 4GB RAM, Windows 10 Pro 64-bit.
 *   **Kendala Operasional:**
     *   Kapasitas kerja terbatas; sistem mengalami kegagalan (hang/error) jika membuka lebih dari dua berkas Excel secara bersamaan.
-    *   Sistem sering mati secara mendadak saat digunakan.
+    *   Insiden Blue Screen of Death (BSOD) dan sering mati secara mendadak.
     *   Performa sangat lambat saat mengakses basis data ORS Payroll (Microsoft Access).
-*   **Analisis Teknis:** Penutupan mendadak sering kali mengindikasikan masalah pada unit catu daya (PSU) atau suhu panas berlebih (overheating).
+*   **Analisis Teknis:** Insiden BSOD dan kematian mendadak sering kali mengindikasikan masalah pada unit catu daya (PSU), overheating, atau ketidakstabilan memori.
 *   **Rekomendasi:** **Penggantian Unit (Replacement)**. Diperlukan perangkat dengan manajemen memori yang lebih baik untuk mendukung beban kerja administratif.
 
 ### 1.5. Unit Yohana (PC)
@@ -43,7 +43,8 @@ Dokumen ini menyajikan analisis mendalam mengenai kondisi perangkat keras yang s
     *   Keluhan ergonomis terkait dimensi layar yang terlalu kecil dibandingkan unit sebelumnya.
     *   Malfungsi input (kursor menghilang) yang menghambat alur kerja.
     *   Gejala penurunan kecepatan saat menjalankan banyak aplikasi simultan.
-*   **Rekomendasi:** Perbaikan perangkat input (mouse/konektor) dan evaluasi penggantian monitor ke dimensi yang lebih ergonomis.
+    *   Insiden Blue Screen of Death (BSOD) yang menunjukkan ketidakstabilan sistem.
+*   **Rekomendasi:** Perbaikan perangkat input (mouse/konektor) dan evaluasi penggantian monitor ke dimensi yang lebih ergonomis. BSOD mengindikasikan risiko stabilitas sistem yang perlu ditangani segera.
 
 ### 1.6. Unit Hibab (Laptop)
 *   **Spesifikasi:** i5-7200U @ 2.50GHz, 4GB RAM, Windows 10 Pro 64-bit.

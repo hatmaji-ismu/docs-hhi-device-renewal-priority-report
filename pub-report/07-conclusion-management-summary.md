@@ -2,10 +2,10 @@
 
 ## Intisari Kondisi Aset dan Urgensi Peremajaan
 
-Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi armada TI yang memerlukan intervensi strategis segera. Temuan kunci yang menegaskan urgensi peremajaan:
+Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi unit TI yang memerlukan intervensi strategis segera. Temuan kunci yang menegaskan urgensi peremajaan:
 
 ### 1. Skala Masalah yang Signifikan
-- **75% armada** (9 dari 12 unit) membutuhkan keputusan aktif berupa penggantian atau penyegaran
+- **75% unit** (9 dari 12 unit) membutuhkan keputusan aktif berupa penggantian atau penyegaran
 - **41,7% unit** (5 unit) berada dalam kategori "penggantian segera" dengan risiko operasional tinggi
 - Hanya **16,7% unit** (2 unit) yang dapat dipertahankan tanpa intervensi signifikan
 
@@ -26,7 +26,7 @@ Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi arm
 **Rekomendasi:** Setujui dan alokasikan sumber daya untuk program penggantian perangkat bertahap dengan fokus pada mitigasi risiko tertinggi terlebih dahulu.
 
 **Rasional:**
-- Mengatasi 75% armada yang membutuhkan intervensi
+- Mengatasi 75% unit yang membutuhkan intervensi
 - Fokus pada unit dengan dampak bisnis terbesar
 - Optimasi penggunaan anggaran melalui phased approach
 - Minimisasi disruption operasional
@@ -34,7 +34,7 @@ Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi arm
 ### Keputusan 2: Prioritisasi Batch Pertama (5 Unit)
 **Rekomendasi:** Fase pertama program difokuskan pada penggantian 5 unit dengan risiko tertinggi:
 1. Renaldi - Risiko kehilangan data dan BSOD
-2. Diana - Mati mendadak dan gangguan aplikasi kritis
+2. Diana - BSOD, mati mendadak, dan gangguan aplikasi kritis
 3. Regina - Kerusakan fisik dan mobilitas
 4. System Finance - Platform sangat tua
 5. Syela - Storage hampir penuh dan health menurun
@@ -80,25 +80,25 @@ Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi arm
 
 ## Roadmap Tindak Lanjut
 
-### Fase Immediate (Bulan 1-2)
+### Fase 1 — Immediate
 1. **Persetujuan Anggaran:** Finalisasi alokasi untuk batch pertama
 2. **Procurement Process:** Pengadaan 5 unit prioritas tertinggi
 3. **Communication Plan:** Sosialisasi program ke stakeholders
 4. **Preparation:** Backup data, scheduling, resource allocation
 
-### Fase Implementasi (Bulan 2-4)
+### Fase 2 — Implementasi
 1. **Deployment Batch 1:** Penggantian 5 unit risiko tertinggi
 2. **User Onboarding:** Training dan support transition
 3. **Interim Actions:** Upgrade RAM untuk Yohana & Devinta
 4. **System Optimization:** Clean install untuk Wulan
 
-### Fase Follow-up (Bulan 4-6)
+### Fase 3 — Follow-up
 1. **Assessment Results:** Evaluasi dampak batch pertama
 2. **Planning Batch 2:** Persiapan untuk 4 unit prioritas tinggi
 3. **Process Refinement:** Improvement berdasarkan lessons learned
 4. **Monitoring:** Tracking performance unit yang dipertahankan
 
-### Fase Sustainability (Bulan 6+)
+### Fase 4 — Sustainability
 1. **Deployment Batch 2:** Penggantian 4 unit prioritas tinggi
 2. **Standardization:** Konsolidasi spesifikasi dan vendor
 3. **Lifecycle Management:** Implementasi policy berkelanjutan
@@ -134,16 +134,16 @@ Evaluasi komprehensif terhadap 12 unit perangkat telah mengungkapkan kondisi arm
 
 ## Pernyataan Penutup
 
-Armada perangkat TI organisasi saat ini berada pada titik kritis di mana **inaction akan lebih mahal daripada action**. Investasi dalam program peremajaan bertahap bukan hanya tentang mengganti perangkat tua, tetapi tentang:
+Unit perangkat TI organisasi saat ini berada pada titik kritis di mana **inaction akan lebih mahal daripada action**. Investasi dalam program peremajaan bertahap bukan hanya tentang mengganti perangkat tua, tetapi tentang:
 
 1. **Melindungi Operasional Bisnis** dari risiko downtime dan kehilangan data
 2. **Memberdayakan Karyawan** dengan tools yang memadai untuk produktivitas optimal
 3. **Membangim Foundation Digital** untuk pertumbuhan dan inovasi masa depan
 4. **Mengoptimalkan Investasi TI** melalui strategic lifecycle management
 
-Rekomendasi dalam laporan ini memberikan roadmap yang practical, risk-aware, dan business-impact focused. Implementasi program ini akan mengubah armada TI dari liability menjadi asset strategis yang mendukung tujuan organisasi.
+Rekomendasi dalam laporan ini memberikan roadmap yang practical, risk-aware, dan business-impact focused. Implementasi program ini akan mengubah unit TI dari liability menjadi asset strategis yang mendukung tujuan organisasi.
 
-**Waktu untuk bertindak adalah sekarang.** Setiap bulan penundaan berarti produktivitas yang terus terhambat, risiko operasional yang terus meningkat, dan kesempatan untuk membangun competitive advantage yang terlewatkan.
+**Waktu untuk bertindak adalah sekarang.** Setiap penundaan berarti produktivitas yang terus terhambat, risiko operasional yang terus meningkat, dan kesempatan untuk membangun competitive advantage yang terlewatkan.
 
 ---
 
